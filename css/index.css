@@ -1,0 +1,149 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 1s;
+    box-sizing: border-box
+}
+.nav-link{
+   font-weight: 600;
+   color:black!important;
+   font-size: 12px;
+   letter-spacing: 2px;
+}
+.navbar-brand{
+    font-weight:700;
+    letter-spacing: 2px;
+    font-size:30px;
+}
+.myBg{
+    background-color: transparent;
+}
+body{
+    position: relative;
+}
+header{
+    position: relative;
+    height:100%;
+}
+.baby-blue{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: #c7dcdd;
+    width:40%;
+    height:70%;
+}
+
+.pastel-violet{
+    width:50%;
+    bottom:0px;
+    height:75%;
+    position: absolute;
+    background-color: #cacecf;
+    left:25%;
+    right:25%;
+}
+.layer{
+    position: absolute;
+    background-color: black;
+    opacity: .4;
+    top:0;
+    bottom: 0;
+}
+.caption{
+    position: absolute;
+    top: 30%;
+    left: -15%;
+}
+.caption h1{
+    font-size:70px;
+    letter-spacing: 2px;
+}
+h1:after{
+    position: absolute;
+    background-color: white;
+    width:40px;
+    height:4px;
+    content: "";
+    bottom:81px;
+    right:-30px;
+}
+.caption p{
+    letter-spacing: 2px;
+    color:#494949;
+}
+
+section .nav-link{
+    color: rgb(132, 132, 134)!important;
+}
+section .active{
+    color:black!important;
+}
+.btn-explore{
+ color:white;
+ background-color: #b3d5d4;
+ border-radius:25%;
+ font-size:12px;
+ font-weight: 700;
+ letter-spacing: 2px;
+ padding:15px 25px;
+}
+.latest-news h3{
+    font-size: 20px;
+}
+.latest-news h3:hover{
+    color:#b3d5d4;
+}
+.latest-news p{
+    font-size:12px;
+    color:#494949;
+    margin-top:20px; 
+}
+.latest-news .trending{
+    position: relative;
+    overflow: hidden;
+}
+/********/
+.news{
+    position: relative;
+}
+.news .layer{
+  position: absolute;
+  z-index: 1000000000;
+  background-color: #7feafc;
+  opacity: .7;
+  width:40%;
+  top: 0;
+  bottom:0;
+  left:0;
+  display: none;
+}
+.news .text{
+    color: #fff;
+    position: absolute;
+    top:30%;
+}
+.text p{
+    color:white;
+    font-size:20px;
+}
+.text span{
+    font-size:12px;
+}
+.news .tag{
+    background-color:white;
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding:10px 25px;
+    border-radius: 5px;
+  
+}
+.news .tag p{
+    margin: 0px;
+}
+.news:hover .layer{
+    display: block;
+}
+.trending .fst{
+    width:65%;
+}
