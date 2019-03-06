@@ -3,6 +3,12 @@ $("a").click(function(){
     var aHref = $(this).attr("href");
     $("body").animate({scrollTop:$(aHref).offset().top},1000)
 })
+window.onload = function(){
+    $(".loading").css("z-index", "0");
+    $(".cssload-thecube").css("opacity","0")
+    $(".loading").css("width", "0");
+    $("body").css("overflow", "auto")
+}
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -24,6 +30,8 @@ $(document).ready(function(){
             }
         }
     });
+
+    
   });
 
   prevScroll = window.pageYOffset
