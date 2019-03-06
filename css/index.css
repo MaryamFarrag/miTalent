@@ -15,7 +15,7 @@
     font-size:30px;
 }
 .myBg{
-    background-color: transparent;
+    background-color:transparent;
 }
 body{
     position: relative;
@@ -42,12 +42,20 @@ header{
     left:25%;
     right:25%;
 }
-.layer{
+.team .col-md-3{
+    position: relative;
+}
+.team .col-md-3 .layer{
     position: absolute;
-    background-color: black;
-    opacity: .4;
+    background-color: white;
+    opacity: 0;
     top:0;
     bottom: 0;
+    left:0;
+    right:0;
+}
+.team .col-md-3:hover .layer{
+    opacity: .4;
 }
 .caption{
     position: absolute;
@@ -110,12 +118,11 @@ section .active{
   position: absolute;
   z-index: 1000000000;
   background-color: #7feafc;
-  opacity: .7;
+  opacity: 0;
   width:40%;
   top: 0;
   bottom:0;
   left:0;
-  display: none;
 }
 .news .text{
     color: #fff;
@@ -142,7 +149,7 @@ section .active{
     margin: 0px;
 }
 .news:hover .layer{
-    display: block;
+    opacity: 0.7;
 }
 .trending .fst{
     width:65%;

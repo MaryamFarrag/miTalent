@@ -25,3 +25,29 @@ $(document).ready(function(){
         }
     });
   });
+
+  prevScroll = window.pageYOffset
+
+
+  //changing navbar color and hiding it while scrolling down
+
+  window.onscroll = function(){
+      
+      currentScroll = window.pageYOffset
+      if(prevScroll > currentScroll && $(document).scrollTop() < 50){
+        $(".navbar").css("background-color", "transparent"); 
+      }
+
+      else if(prevScroll > currentScroll){
+          $(".navbar").css("top","0")
+          $(".navbar").css("background-color","white")
+          console.log("tale3")
+      }
+      else{
+          $(".navbar").css("top","-100px")
+          console.log("nazel")
+      }
+      prevScroll = currentScroll
+
+}
+  
