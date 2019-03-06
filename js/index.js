@@ -49,11 +49,9 @@ $(document).ready(function(){
       else if(prevScroll > currentScroll){
           $(".navbar").css("top","0")
           $(".navbar").css("background-color","white")
-          console.log("tale3")
       }
       else{
           $(".navbar").css("top","-100px")
-          console.log("nazel")
       }
       prevScroll = currentScroll
 

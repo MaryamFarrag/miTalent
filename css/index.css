@@ -347,3 +347,29 @@ section .active{
 .trending .fst{
     width:65%;
 }
+/**meddiiaaaa**/
+@media (max-width:500px){
+    .news .layer{
+        position: absolute;
+        z-index: 1000000000;
+        background-color: #7feafc;
+        opacity: 0;
+        width:50%;
+        top: 0;
+        bottom:0;
+        left:0;
+      }
+      .news .text{
+        color: #fff;
+        position: absolute;
+        top:20%;
+    }
+    .trending .fst{
+        width:100%;
+    }
+    .trending .second{
+        margin-top:10px;
+    }
+    
+
+}
