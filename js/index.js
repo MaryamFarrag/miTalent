@@ -1,8 +1,4 @@
-//scroll to the link smoothly
-$("a").click(function(){
-    var aHref = $(this).attr("href");
-    $("body").animate({scrollTop:$(aHref).offset().top},1000)
-})
+
 window.onload = function(){
     $(".loading").css("z-index", "0");
     $(".cssload-thecube").css("opacity","0")
@@ -39,8 +35,7 @@ $(document).ready(function(){
 
   //changing navbar color and hiding it while scrolling down
 
-  window.onscroll = function(){
-      
+  window.onscroll = function(){  
       currentScroll = window.pageYOffset
       if(prevScroll > currentScroll && $(document).scrollTop() < 50){
         $(".navbar").css("background-color", "transparent"); 
@@ -54,6 +49,21 @@ $(document).ready(function(){
           $(".navbar").css("top","-100px")
       }
       prevScroll = currentScroll
-
 }
-  
+
+
+/*$('#actor-tab').on('click', function () {
+    $("div").removeClass("show active")
+    $("#actor").addClass("show active")
+  })
+
+  $('#music-tab').on('click', function () {
+    $("div").removeClass("show active")
+    $("#music").addClass("show active")
+  })
+  $('#comedy-tab').on('click', function () {
+    $("div").removeClass("show active")
+    $("#comedy").addClass("show active")
+  })
+
+  */
