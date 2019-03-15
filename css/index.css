@@ -207,6 +207,9 @@
     letter-spacing: 2px;
     font-size:30px;
 }
+.navbar{
+	z-index: 100000000000000!important;
+}
 .myBg{
     background-color:transparent;
 }
