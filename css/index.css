@@ -9,7 +9,7 @@
     height:100%;
     position: fixed;
     background-color:#555;
-    z-index:10000000000000000000;
+    z-index:10000000000000000000!important;
 }
 .cssload-thecube {
 	width: 73px;
@@ -208,7 +208,7 @@
     font-size:30px;
 }
 .navbar{
-	z-index: 1000000000000000!important;
+	z-index: 10000000000000!important;
 }
 .myBg{
     background-color:transparent;
