@@ -208,7 +208,7 @@
     font-size:30px;
 }
 .navbar{
-	z-index: 10000000000000000;
+	z-index: 1000000000000000!important;
 }
 .myBg{
     background-color:transparent;
