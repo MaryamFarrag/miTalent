@@ -208,7 +208,7 @@
     font-size:30px;
 }
 .navbar{
-	z-index: 10000000000000000;
+	z-index: 1000000;
 }
 .myBg{
     background-color:transparent;
@@ -311,7 +311,7 @@ section .active{
 }
 .news .layer{
   position: absolute;
-  z-index: 1000000000;
+  z-index: 10000;
   background-color: #7feafc;
   opacity: 0;
   width:40%;
